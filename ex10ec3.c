@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
                 case 'Y':
                     if (j > 2) {
                         // it's only sometimes Y
-                        printf("%d: 'U'\n", j);
+                        printf("%d: 'Y'\n", j);
                     }
                     break;
                     
