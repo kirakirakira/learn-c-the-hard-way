@@ -7,8 +7,11 @@ int main(int argc, char *argv[])
     int areas[] = {10, 12, 13, 14, 20};
     char name[] = "Zed";
     areas[0] = 100;
+    
+    // Single quotes are for characters, double quotes are for strings
     name[0] = 'K';
     full_name[3] = 'L';
+    areas[1] = name[0];
     
     // WARNING: On some systems you may have to change the %ld in this code o %u since it
     // will use unsigned ints
